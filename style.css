@@ -41,5 +41,26 @@ h2 {
     width: 3.5rem;
     border: none;
     border-radius: 100%;
-    background-color: hsl(150, 100%, 66%);;
+    background-color: hsl(150, 100%, 66%);
+}
+
+.dice-circle:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0.7rem 0.7rem hsla(150, 100%, 66%, 0.201);
+}
+
+/* RESPONSIVE DESIGN FOR MOBILE */
+
+@media (max-width:540px) {
+    
+    .container {
+        width: auto;
+        margin: auto 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .pattern-divider > img {
+        content: url(./images/pattern-divider-mobile.svg);
+    }
 }
