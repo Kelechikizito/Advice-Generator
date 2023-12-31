@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 1rem;
+    padding: 2.5rem;
+    width: min-content;
+    padding-bottom: 0;
+}
+
+p {
+    color: hsl(150, 100%, 66%);
+    margin-top: 0;
+    letter-spacing: 0.4rem;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+    color: hsl(193, 38%, 86%);
+}
+
+.dice-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border: none;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);;
+}
