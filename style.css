@@ -49,6 +49,10 @@ h2 {
     box-shadow: 0 0 0.7rem 0.7rem hsla(150, 100%, 66%, 0.201);
 }
 
+.dice-circle:active {
+    transform: scale(0.8);
+}
+
 /* RESPONSIVE DESIGN FOR MOBILE */
 
 @media (max-width:540px) {
